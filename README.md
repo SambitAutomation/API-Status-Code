@@ -1,9 +1,9 @@
 # API-Status-Code
 
-1.Successful responses ( 200 Series )
+[1.Successful responses ( 200 Series )
    1.200 OK ( Getting After any success http requests ( GET, PUT ) )
    2.201 Created  ( Creation Of New Record using "POST" request )
-   3.204 No Content ( Deletion Of Record using "DELETE" request )
+   3.204 No Content ( Deletion Of Record using "DELETE" request ) ]
    
 2.Client error responses ( 400 Series )
    1.400 Bad Request ( Server unable to process the request bcz of wrong syntax or invalid request )
