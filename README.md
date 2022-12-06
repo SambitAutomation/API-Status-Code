@@ -1,23 +1,3 @@
 # API-Status-Code
 
-[1.Successful responses ( 200 Series )
-   1.200 OK ( Getting After any success http requests ( GET, PUT ) )
-   2.201 Created  ( Creation Of New Record using "POST" request )
-   3.204 No Content ( Deletion Of Record using "DELETE" request ) ]
-   
-2.Client error responses ( 400 Series )
-   1.400 Bad Request ( Server unable to process the request bcz of wrong syntax or invalid request )
-   2.401 Unauthorized ( User need to authenticate itself before getting response for request )
-   3.403 Forbidden ( Not authorized to access this content even if authenticated )
-   4.404 Not Found ( Resource not exist for which we requested )
-   5.429 Too Many Requests ( User sent too many request in a given amount of time )
-  
-3.Server error responses ( 500 Series )
-   1.500 Internal Server Error ( Maybe some malfunctioned of server )
-   2.501 Not Implemented ( Not supported by server )
-   3.502 Bad Gateway ( From which server we are trying to get the data acting as a proxy / gateway that relay on other server for content )
-   4.503 Service Unavailable ( Sevrer is not ready to handle the request )
-   5.504 Gateway Timeout
-   
-   
-[  https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses  ]
+
